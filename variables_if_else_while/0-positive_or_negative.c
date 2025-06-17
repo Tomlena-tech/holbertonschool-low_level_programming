@@ -1,9 +1,17 @@
 #include <stdio.h>
 #include <time.h>
+/**
+ * main - Entry point
+ * 
+ * Description: 'the program's description'
+ * @parameter: describe the parameter
+ * 
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-int = n;
-srand(time(0));
+int n;
+srand (time(0)); 
 n = rand() - RAND_MAX / 2;
 return (0);
 }
