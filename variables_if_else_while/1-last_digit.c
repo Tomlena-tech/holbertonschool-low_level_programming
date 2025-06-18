@@ -1,21 +1,33 @@
 #include <stdlib.h>
-#include <stdio.h>
 #include <time.h>
-/* more headers goes there */
-/* betty style doc for function main goes there */
+#include <stdio.h>
+
+/**
+ * main - Prints a text according number
+ *
+ * Return: Always (Success)
+ */
 int main(void)
 {
-int n;
-srand(time(0));
-n = rand() - RAND_MAX / 2;
-printf("%d \n", n);
- printf("The last digit of %d is %d and is 0\n",n , n % 10);
-if (n % 10  > 5)
-printf("and is greater than 5\n");
-else if (n % 10 == 0)
-printf("and is 0\n");
-else
-printf("and is less than 6 and not 0");
-return (0);
+	int n, lastd;
+
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	lastd = n % 10;
+
+	if (lastd > 5)
+	{
+		printf("Last digit of %d is %d and is greater than 5\n", n, lastd);
+	}
+	else if (lastd == 0)
+	{
+		printf("Last digit of %d is %d and is 0\n", n, lastd);
+	}
+	else if (lastd < 6 && lastd != 0)
+	{
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, lastd);
+	}
+
+	return (0);
 }  
 
