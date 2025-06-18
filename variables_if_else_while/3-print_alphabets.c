@@ -1,4 +1,3 @@
-ile Edit Options Buffers Tools C Help                                                 
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
@@ -6,10 +5,12 @@ ile Edit Options Buffers Tools C Help
 * main - Prints a text according number                                                
 * Return: Always (Success)                                                             
 */
-int main()
+int main(void)
 {
-  for(int x = 'a'; x <= 'z'; x++)
-    putchar(x);
-  
-  return(0);
+char x;
+for(x = 'a'; x <= 'z'; x++)
+putchar(x);
+for(x = 'A'; x <= 'Z'; x++)
+  putchar(x);  
+return(0);
 }
