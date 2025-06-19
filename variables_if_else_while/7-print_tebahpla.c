@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - Prints letters                                                                                        
- * Return: Always 0 (Success) 
- */
+* main - Prints letters
+* Return: Always0(Success)
+*/
 int main(void)
 {
 char letters;
