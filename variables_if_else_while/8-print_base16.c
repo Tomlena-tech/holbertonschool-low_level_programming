@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
-/** main - Prints letters
+/**
+* main - Prints letters
 * Return: Always0(Success)
 */
 int main(void)
