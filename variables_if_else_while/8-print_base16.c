@@ -6,14 +6,15 @@
 */
 int main(void)
 {
-  int numbers; int letters;
+  int numbers; char letters;
 for (numbers = 0; numbers <=9; numbers ++)
 {
-putchar(numbers);
+putchar(numbers + '0');
 }
- for (letters = 'A'; letters > 'G'; letters ++)
-   {putchar (letters);
-   }
+ for (letters = 'a'; letters <= 'f'; letters ++)
+{
+putchar(letters);
+}
 putchar('\n');
 return (0);
 }
