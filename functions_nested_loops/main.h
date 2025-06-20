@@ -3,4 +3,4 @@
 
 int _putchar(char c);  /* An example function declaration */
 
-#endif // FOO_H_
+#endif
