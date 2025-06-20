@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+int main (void)
+{
+  char name = '_putchar';
+  printf("%c",\n)
+    
+
+
+
+
+
+
+}
