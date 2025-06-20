@@ -1,4 +1,5 @@
 #include "main.h"
+/* affichage des caracteres */
 int main (void)
 {
 _putchar('_');
