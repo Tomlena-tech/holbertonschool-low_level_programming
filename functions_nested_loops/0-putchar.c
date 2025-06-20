@@ -1,7 +1,7 @@
 #include "main.h"
 /* affichage des caracteres */
 /*main va servir a afficher*/
-int main(void)
+int main(void)/* describ the main*/
 {
 _putchar('_');
 _putchar('p');
