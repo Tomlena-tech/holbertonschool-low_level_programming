@@ -1,6 +1,6 @@
 #include "main.h"
 /* affichage des caracteres */
-int main (void)
+int main(void)
 {
 _putchar('_');
 _putchar('p');
