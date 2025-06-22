@@ -30,8 +30,10 @@ _putchar('0' + product);
 else
 {
 _putchar('0' + (product / 10));
-_putchar('0' + (10 % product));
+_putchar('0' + (product % 10));
 }
 }
- }_putchar('\n');
+ }
+ _putchar('\n');
 }
+
