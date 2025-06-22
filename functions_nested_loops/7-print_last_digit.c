@@ -4,15 +4,11 @@
 *
 * Return: Always 0.
 */
-int print_last_digit(int number2)
-{int number1 = 0;
-{if (number2 < 0)
-number2 = -number2;
-number2 = number2 % 10;
-if (number1 < 0)
-number1 = -number1;
-number1 = number1 % 10;
-_putchar (number1 + '0');
-return (number1);
-}
+int print_last_digit(int n)
+{int number2;
+number2 = (n % 10);
+if (number2 < 0)
+number2 = (number2 * -1);
+_putchar(number2 + '0');
+return (number2);
 }
