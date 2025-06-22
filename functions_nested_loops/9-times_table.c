@@ -16,7 +16,7 @@ for (second_number = 0; second_number <= 9; second_number++)
 product = (first_number * second_number);
 if (second_number == 0)
 {_putchar('0' + product);
-} 
+}
 else
 {_putchar(',');
 _putchar(' ');
