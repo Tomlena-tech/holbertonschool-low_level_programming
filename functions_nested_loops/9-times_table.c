@@ -1,9 +1,8 @@
 #include "main.h"
 #include <unistd.h>
 /**
-* times_table - Prints the 9 times table, starting with 0 
-* 
-* Return: Nothing 
+* times_table - Prints the 9 times table, starting with 0
+* Return: Nothing
 */
 void times_table(void)
 {
@@ -33,7 +32,7 @@ _putchar('0' + (product / 10));
 _putchar('0' + (product % 10));
 }
 }
- }
- _putchar('\n');
+}
+_putchar('\n');
 }
 }
