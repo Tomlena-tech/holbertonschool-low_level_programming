@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
 * mul multiplie 2 entiers
-* @a@b: entiers 
+* @a@b: entiers
 * Description  multiplication de a et b
 * Return: a * b resultat
 */
