@@ -3,7 +3,6 @@
 #include <unistd.h>
 /**
  * print_numbers - affiche les chiffres.
- *@c : variable chiffre
  * Affiche les chiffres
  * Return
  */
