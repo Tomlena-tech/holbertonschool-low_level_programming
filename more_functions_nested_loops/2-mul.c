@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
-* mul multiplie 2 entiers
+* mul - multiplie 2 entiers
 * @a: nombre entiers
 * @b: nombre entiers
 * Description  multiplication de a et b
