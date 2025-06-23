@@ -1,10 +1,9 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * function _isupper check if capital letters or not
+ * _isupper check capital letters or not
  * @c is the letter to check
- * return 1 if 'c' is uppercase
- * return 0 if not
+ * return 0 or 1
  */
 int _isupper(int c)
 {
