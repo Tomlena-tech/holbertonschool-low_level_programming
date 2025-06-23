@@ -1,7 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * function check if capital letters or not
+ * function _isupper check if capital letters or not
+ * 'c' is the variable
  * return '1' if 'c' is uppercase
  * return '0' if not
  */
