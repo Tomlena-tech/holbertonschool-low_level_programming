@@ -1,12 +1,12 @@
 #include "main.h"
 #include <stdio.h>
 /**
-* _isdigit - verifie si un caractere est un chiffre
-* @c: chiffre (int code ASCII)
-* Description : teste si l entier est un chiffre ou pas (48) et (57)
-* Return: 1 si c'est un chiffre, 0 non.                 
+* mul multiplie 2 entiers
+* @a@b: entiers 
+* Description  multiplication de a et b
+* Return: a * b resultat
 */
 int mul(int a, int b)
 {
-  return (a * b);
+return (a * b);
 }
