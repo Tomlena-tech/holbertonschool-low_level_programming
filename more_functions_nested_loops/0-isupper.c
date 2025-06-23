@@ -3,8 +3,8 @@
 /**
 * _isupper - verifie si un caractere est une lettre majuscaule
 * @c: caractere (int code ASCII)
-* description : teste sin c'est compris entre 'A' (65) et 'Z' (90), inclus
-* return : 1 si c'est majuscule, 0 sinon.
+* Description : teste sin c'est compris entre 'A' (65) et 'Z' (90), inclus
+* Return: 1 si c'est majuscule, 0 sinon.
 */
 int _isupper(int c)
 {
