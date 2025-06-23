@@ -4,7 +4,7 @@
 * _isdigit - verifie si un caractere est un chiffre
 * @c: chiffre (int code ASCII)
 * Description : teste si l entier est un chiffre ou pas (48) et (57)
-* Return: 1 si c'est un chiffre, 0 non.                 
+* Return: 1 si c'est un chiffre, 0 non.
 */
 int _isdigit(int c)
 {
