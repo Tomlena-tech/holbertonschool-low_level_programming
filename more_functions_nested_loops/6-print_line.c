@@ -7,7 +7,7 @@
  * if n = 0 just show ('\n)
  *
  */
-Void print_line(int n)
+void print_line(int n)
 {
 while (n-- > 0)
 { _putchar ('_');
