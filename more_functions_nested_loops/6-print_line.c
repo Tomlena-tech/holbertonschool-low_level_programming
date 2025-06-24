@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_line -  draw a line with underscore.
- * @n how many times prints
+ * @n member parameter
  *
  * description show the line  with '_' type n time
  * if n = 0 just show ('\n)
