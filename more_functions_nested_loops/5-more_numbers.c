@@ -2,17 +2,17 @@
 
 /**
  * - void more_numbers(void) - prints 10 times 
- *
+ * description : 
  *
  *Return
  */
 
 void more_numbers(void)
 {
-  int n;
-  int r;
+int n;
+int r;
   
-  for(n = 0; n < 10; n++)
+  for(n = 0; n < 11; n++)
     {
       for(r = 0; r <= 14; r++)
 	{
