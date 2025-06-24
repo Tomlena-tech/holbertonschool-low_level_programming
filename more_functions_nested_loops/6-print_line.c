@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_line -  draw a line with underscore.
- * @n parameter with an integer
+ * @n how many times prints
  *
  *
  *
