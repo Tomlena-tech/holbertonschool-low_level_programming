@@ -2,7 +2,7 @@
 /**
  * print_most_numbers - print numbers from 0 to 9 excepted 2 and 4
  * Description:  use _putchar to print each numbers from 0 to 9 excepted 2 and 4
- * return
+ *
  */
 
 void print_most_numbers(void)
