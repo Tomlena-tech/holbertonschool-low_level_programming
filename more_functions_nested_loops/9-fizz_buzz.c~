@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+/**
+ *
+ *
+ *
+ *
+ */
+int main(void)
+{
+int number;
+int mul3;
+int mul5;
+
+ if (number = 0; number < 101, number++)
+   {
+     if number % 3 == 0)
+     {_putchar (Fizz);
+	 if number % 5 == 0)
+       {_putchar (Buzz);
+	   if (number % 3 && % 5 == 0)
+	     {_putchar (FizzBuzz);
+	       else
+		 (_putchar number);
+
+}  
