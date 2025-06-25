@@ -11,7 +11,7 @@ void print_triangle(int size)
 {
 int ink1;
 int ink2;
-if (size > 4)
+if (size > 0)
 {
 for (ink1 = 1; ink1 <= size; ink1++)
 {
