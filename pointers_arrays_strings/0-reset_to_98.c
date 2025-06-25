@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  *reset_to_98 - change the value from integer 'n' to 98
- *@n parameter targeted
+ *@*n: adress of modified integer 
  *
  *result: 0
  *
