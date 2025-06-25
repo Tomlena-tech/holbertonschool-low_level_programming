@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- *main - program that prints either umber
+ *main - program that prints number from 1 to 100
  *or fizz or buzz or fizzbuzz
  *
- *return: returns 0 (succes)
+ *Return: Always 0
  */
 int main(void)
 {
