@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  *reset_to_98 - change the value from integer 'n' to 98
- *@*n: adress of modified integer
+ *@n: pointeur vers un entier que la fonction modifie pour lui donner la valeur 98
  *
  *result: 0
  *
