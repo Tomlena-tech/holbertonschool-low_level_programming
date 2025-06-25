@@ -18,7 +18,7 @@ int larj;
     {
       for (lon = 0; lon < size; lon++)
       {
-	for (larj = 0; larj < size; larj++)
+	for (larj = 0; larj < size -1; larj++)
 	  {_putchar ('#');
 	   
 	    
