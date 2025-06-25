@@ -15,7 +15,7 @@ if (size > 0)
 {
 for (lon = 0; lon < size; lon++)
 {
-  for (larj = 0; (larj < size -1); larj++)
+for (larj = 0; larj < (size -1); larj++)
 _putchar ('#');
 _putchar ('#');
 _putchar ('\n');
