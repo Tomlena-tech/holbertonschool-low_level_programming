@@ -4,7 +4,7 @@
  *main - program that prints either umber
  *or fizz or buzz or fizzbuzz
  *
- *return(void)
+ *return: returns 0
  */
 int main(void)
 {
