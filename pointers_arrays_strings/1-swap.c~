@@ -1,0 +1,19 @@
+#incude "main.h"
+#include <stdio.h>
+/**
+ *
+ *
+ *
+ *
+ *
+ */
+void swap_int(int *a, int *b)
+{
+  printf("Value of x = %d\n", * ptr);
+
+
+
+
+
+
+} 
