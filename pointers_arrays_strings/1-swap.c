@@ -9,7 +9,17 @@
  */
 void swap_int(int *a, int *b)
 {
-printf("Value of x = %p\n");
+  int temp = *a;
+  *a = *b;
+  *a = temp;
+}
+  
+  int a = 1;
+  int b = 2;
+  
+
+swapprintf("%d" = a, "%d" = b);
+  
 
 
 
