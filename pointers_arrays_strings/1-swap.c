@@ -9,21 +9,11 @@
  */
 void swap_int(int *a, int *b)
 {
-  int temp = *a;
-  *a = *b;
-  *a = temp;
-}
-  
-  int a = 1;
-  int b = 2;
-  
+int temp = *a;
+*a = *b;
+*a = temp;
+}  
+int a = 1;
+int b = 2;
+swap_int(&a, &b);
 
-swapprintf("%d" = a, "%d" = b);
-  
-
-
-
-
-
-
-} 
