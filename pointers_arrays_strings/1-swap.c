@@ -1,19 +1,15 @@
 #include "main.h"
 #include <stdio.h>
 /**
+ *swap_int switch value of a & b
+ *@a: 1er integer
+ *@b: 2nd integer
  *
- *
- *
- *
- *
+ *return(nothing)
  */
 void swap_int(int *a, int *b)
 {
 int temp = *a;
 *a = *b;
-*a = temp;
-}  
-int a = 1;
-int b = 2;
-swap_int(&a, &b);
-
+*b = temp;
+}
