@@ -1,10 +1,10 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * _strlen -  permet de mesurer la taille d'une chaine de caractere.
- *@s pointe vers la chaine avalt le nul
+ * _strlen -  mesure la taille d'une chaine de caractere.
+ *@s : pointe vers la string avant le nul
  *
- *retourne le nombre de carateres
+ *Retourne le nombre de carateres
  *
  *
  */
