@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print_rev print string in reverse side
+ * print_rev - print string in reverse side with a new line
  *@s: pointer to the string to orint in reverse
  *
  *
