@@ -4,7 +4,7 @@
  * _strlen -  mesure la taille d'une chaine de caractere.
  *@s : pointe vers la string avant le nul
  *
- *Return le nombre de carateres
+ *Return: le nombre de carateres avant le nul
  *
  *
  */
