@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  * puts2 - print every character starting with the first
- *
+ *@parameter: str string printed
  *
  *Return (void)
  */
