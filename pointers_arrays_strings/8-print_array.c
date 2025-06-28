@@ -8,7 +8,7 @@
 */
 void print_array(int *a, int n)
 {
-int compt_bcle ;
+int compt_bcle;
 for (compt_bcle = 0; compt_bcle < n ; compt_bcle++)
 {
 if (compt_bcle != n - 1)
