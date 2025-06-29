@@ -1,3 +1,4 @@
+File Edit Options Buffers Tools C Help                                                                                                              
 #ifndef MAIN_H   /* Include guard */
 #define MAIN_H
 
