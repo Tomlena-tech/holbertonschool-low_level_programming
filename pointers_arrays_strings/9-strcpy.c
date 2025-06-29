@@ -13,6 +13,6 @@ char *_retourne = dest;
 while ((*dest++ = *src++) != '\0')
 {;
 }
-return _retourne;
+return (_retourne);
 }
 
