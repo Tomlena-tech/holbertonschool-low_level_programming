@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 /**
 *  _strncpy - C function that copies a string, including the
 *  terminating null byte, using at most an inputted number of bytes.
@@ -11,13 +10,16 @@
 *@n:max nummber of byte copied
 *Return: returns
 */
+
 char *_strncpy(char *dest, char *src, int n)
 {
-int compteur_de_boucle;
-for (compteur_de_boucle = 0; compteur_de_boucle < n && src[compteur_de_boucle] != '\0'; compteur_de_boucle++)
-dest[compteur_de_boucle] = src[compteur_de_boucle];
-dest[compteur_de_boucle] = src[compteur_de_boucle];
-for ( ; compteur_de_boucle < n; compteur_de_boucle++)
-dest[compteur_de_boucle] = '\0';
-return (dest);
+	int i;
+
+	for (i = 0; i < n && src[i] != '\0'; i++)
+		dest[i] = src[i];
+
+	for ( ; i < n; i++)
+		dest[i] = '\0';
+
+	return (dest);
 }
