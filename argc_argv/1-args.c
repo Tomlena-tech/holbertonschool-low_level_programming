@@ -6,10 +6,8 @@
 *Return: 0                                                                                                      
 */
 int main(int argc, char *argv[])
-{
-int index;
- (void)argv;
-for (index = 0; index < argc; index++)
+{;
+(void)argv;
 {
 printf("%d\n", argc);
 }
