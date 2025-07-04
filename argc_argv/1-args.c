@@ -8,9 +8,10 @@
 int main(int argc, char *argv[])
 {
 int index;
+ (void)argv;
 for (index = 0; index < argc; index++)
 {
-printf("%s\n", argv[index]);
+printf("%d\n", argc);
 }
 return (0);
 }
