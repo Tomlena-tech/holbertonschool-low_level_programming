@@ -1,4 +1,3 @@
-File Edit Options Buffers Tools C Help                                                                          
 #ifndef MAIN_H   /* Include guard */
 #define MAIN_H
 
@@ -57,7 +56,6 @@ int factorial(int n);
 int _pow_recursion(int x, int y);
 int is_prime_number(int n);
 int _sqrt_recursion(int n);
-int main(int argc, char *argv[]);
+int main(void);/* modifie pour l'exo 0 a la base argc argv */
 char *create_array(unsigned int size, char c);
-
--=--:----F1  main.h         Top L1    Git-main  (C/*l Abbrev) --------------------------------------------------
+#endif /* MAIN_H */
