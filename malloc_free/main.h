@@ -58,4 +58,5 @@ int is_prime_number(int n);
 int _sqrt_recursion(int n);
 int main(void);/* modifie pour l'exo 0 a la base argc argv */
 char *create_array(unsigned int size, char c);
+char *_strdup(char *str)
 #endif /* MAIN_H */
