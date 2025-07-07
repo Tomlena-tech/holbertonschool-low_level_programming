@@ -13,20 +13,20 @@
 char *_strdup(char *_str)
 {
     char *dup;
-    int i, len;
+    int index, longueur_st;
 
     if (_str == NULL)
         return (NULL);
 
-    for (len = 0; _str[len] != '\0'; len++)
+    for (longueur_st = 0; _str[longueur_st] != '\0'; longueur_st++)
         ;
-    dup = malloc(sizeof(char) * (len + 1));
+    dup = malloc(sizeof(char) * (longueur_st + 1));
     if (dup == NULL)
         return (NULL);
 
-    for (i = 0; i < len; i++)
-        dup[i] = _str[i];
+    for (index = 0; index < longueur_st; index++)
+        dup[index] = _str[index];
     
-    dup[len] = '\0';    
+    dup[longueur_st] = '\0';    
     return (dup);
 }
