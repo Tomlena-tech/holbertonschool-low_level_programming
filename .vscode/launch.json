@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/workspaces/holbertonschool-low_level_programming/malloc_free",
+      "program": "/workspaces/holbertonschool-low_level_programming/malloc_free/build/Debug/outDebug"
+    }
+  ]
+}
