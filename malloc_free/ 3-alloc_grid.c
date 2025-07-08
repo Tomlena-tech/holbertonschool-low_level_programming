@@ -26,14 +26,18 @@ int **grid; int index1, index2;
     {
         grid[index1] = malloc(sizeof(int) * width);
         if (grid[index1] == NULL)
-        {return (NULL);
-        }
-            for (index2 = 0; index2 < width; index2++)
-            {grid[index1][index2] = 0;
+        {
+            for (index2 = 0; index2 < index1; index2++)
+            {
+                free(grid[index2]);
             }
             free(grid);
             return NULL;
-
         }
+        for (index2 = 0; index2 < width; index2++)
+        {
+            grid[index1][index2] = 0;
+        }
+    }
     return grid;
 }
