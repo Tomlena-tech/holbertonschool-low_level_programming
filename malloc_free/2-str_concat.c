@@ -19,11 +19,14 @@ return (NULL);
 concat_str = malloc(sizeof(char) * (long_str1 + long_str2 + 1));
 if (concat_str == NULL)
 return (NULL);
-for (long_str1 = 0; long_str1 < 0; long_str1++)
+for (index = 0; index < long_str1; index++)
 {
-concat_str[index] = s1[index];
-}           
-for (long_str2 = 0; long_str2 < 0; long_str2++)
+concat_str[concat_index++] = s1[index];
+}
+for (index = 0; index < long_str2; index++)
 {
-concat_str[index] = s1+s2[index];
+concat_str[concat_index++] = s2[index];
+}
+concat_str[concat_index] = '\0';
+return (concat_str);
 }
