@@ -24,4 +24,6 @@ for (index = 0; index < longueur_st; index++)
 dup[index] = _str[index];    
 dup[longueur_st] = '\0';    
 return (dup);
+new[index +longueur_st] = '\0';
+return (new)
 }

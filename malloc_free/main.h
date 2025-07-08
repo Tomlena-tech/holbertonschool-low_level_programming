@@ -59,4 +59,5 @@ int _sqrt_recursion(int n);
 int main(void);/* modifie pour l'exo 0 a la base argc argv */
 char *create_array(unsigned int size, char c);
 char *_strdup(char *str);
+char *str_concat(char *s1, char *s2);
 #endif /* MAIN_H */
