@@ -17,13 +17,11 @@ int index, longueur_st;
 if (_str == NULL)
 return (NULL);
 for (longueur_st = 0; _str[longueur_st] != '\0'; longueur_st++);
-dup = malloc(sizeof(char) * (longueur_st + 1));
+dup = malloc(sizeof(char) * ((size_t)longueur_st + 1));
 if (dup == NULL)
 return (NULL);
 for (index = 0; index < longueur_st; index++)
 dup[index] = _str[index];    
 dup[longueur_st] = '\0';    
 return (dup);
-new[index +longueur_st] = '\0';
-return (new)
 }
