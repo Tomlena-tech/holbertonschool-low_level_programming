@@ -5,24 +5,24 @@
 /**
  * _calloc - allocates memory for an array, using malloc
  * @nmemb: number of elements in the array
- * @size: size of each element
+ * @size_t size_array: size_t size_array of each element
  *
  * Return: pointer to allocated memory, or NULL if it fails
  */
-void *_calloc(unsigned int nmemb, unsigned int size)
+void *_calloc(unsigned int nmemb, unsigned int size_array)
 {
-int size_array = 0;
-char *ptr;
-if (nmemb == 0 || size == 0)
-{
-    return (NULL);
-}
-size_array = nmemb * size;
-ptr = malloc(size_array);
-if (!ptr)
-{
-return (NULL);
-}
-memset(ptr, 0, size_array);
-return (ptr);
+    char *ptr;
+    unsigned int i;
+
+    if (nmemb == 0 || size_array == 0)
+        return (NULL);
+
+    ptr = malloc(nmemb * size_array);
+    if (ptr == NULL)
+        return (NULL);
+
+    for (i = 0; i < nmemb * size_array; i++)
+        ptr[i] = 0;
+
+    return (ptr);
 }
