@@ -6,9 +6,11 @@
  * @age: The age of the dog.
  * @owner: The owner of the dog.
  */
-struct dog
-{char *name;  /* Pointer to the dog's name */
+ typedef struct dog
+ {
+ char *name;  /* Pointer to the dog's name */
  float age;     /* The dog's age */
  char *owner;   /* Pointer to the dog's owner */
-};
+ } dog_t;
+
 #endif /* DOG_H */
