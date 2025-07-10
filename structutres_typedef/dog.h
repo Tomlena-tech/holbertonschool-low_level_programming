@@ -8,9 +8,13 @@
  */
  struct dog
  {
- char *name;  /* Pointer to the dog's name */
- float age;     /* The dog's age */
- char *owner;   /* Pointer to the dog's owner */
- } dog_t;
+ char *name; 
+ float age;     
+ char *owner;   
+ };
+ /**
+  * dog_t - Typedef for struct dog.
+  */
+typedef struct dog dog_t;
 
 #endif /* DOG_H */
