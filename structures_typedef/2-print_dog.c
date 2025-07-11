@@ -1,15 +1,15 @@
 #include <stdio.h>
 #include "dog.h"
 /** print_dog - prints a struct dog
- * @d pointer to the struct doog to print
- *  Description: This function prints the name, age, and owner of a dog.
- * if any firlds are missing  it prints (nil)
- */
+* @d pointer to the struct doog to print
+*  Description: This function prints the name, age, and owner of a dog.
+* if any firlds are missing  it prints (nil)
+*/
 void print_dog(struct dog *d)
 {
 if (d == NULL)
 return;
-  if (d->name == NULL && d->owner == NULL)
+if (d->name == NULL && d->owner == NULL)
 { 
 printf("Name: (nil)\n");
 printf("Age: %f\n", d->age);
