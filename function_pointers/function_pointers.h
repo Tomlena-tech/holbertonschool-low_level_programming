@@ -15,10 +15,22 @@
  */
 void print_name(char *name, void (*f)(char *));
 int _putchar(char c);
+typedef void (*func_ptr)(char *);
+void array_iterator(int *array, size_t size, void (*action)(int));
+/**
+ * int_index - Searches for an integer in an array.
+ * @array: The array to search.
+ * @size: The number of elements in the array.
+ * @cmp: A function pointer that compares two integers.
+ *
+ * Return: The index of the first element for which cmp does not return 0,
+ *         or -1 if no element matches or size is less than or equal to 0.
+ */
+
 
 /**
  * func_ptr - Typedef for a function pointer taking a char* and returning void.
  */
-typedef void (*func_ptr)(char *);
+
 
 #endif /* FUNCTION_POINTERS_H */
