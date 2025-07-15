@@ -1,19 +1,18 @@
-#include <stdlib.h>
 #include <stdio.h>
-
-void Printhello(char *name)
+#include "function_pointers.h"
+/**
+ * array_iterator - Executes a function on each element of an array
+ * @array: The array of integers
+ * @size: Number of elements in the array
+ * @action: Function pointer to apply to each element
+ */
+void array_iterator(int *array, size_t size, void (*action)(int))
 {
-printf("Hello %s\n", name);
-}
-
-
- int Add(int a, int b)
-    {return a+b;
-    }
-  
-int main() 
-{
-void (*ptr)(char*);
-ptr = Printhello;
-ptr("Thomas");
+        if (array == NULL || action == NULL)
+                return;
+size_t i;
+        for (size_t i = 0; i < size; i++)
+        {
+                action(array[i]);
+        }
 }
