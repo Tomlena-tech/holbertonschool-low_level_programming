@@ -1,10 +1,4 @@
 {
-    // Utilisez IntelliSense pour en savoir plus sur les attributs possibles.
-    // Pointez pour afficher la description des attributs existants.
-    // Pour plus d'informations, visitez : https://go.microsoft.com/fwlink/?linkid=830387
-    "version": "0.2.0",
-    "configurations": []
-}{
   "version": "0.2.0",
   "configurations": [
     {
@@ -12,8 +6,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/workspaces/holbertonschool-low_level_programming/malloc_free",
-      "program": "/workspaces/holbertonschool-low_level_programming/malloc_free/build/Debug/outDebug"
+      "cwd": "/Users/thomas/holbertonschool/holbertonschool-low_level_programming/holbertonschool-low_level_programming",
+      "program": "/Users/thomas/holbertonschool/holbertonschool-low_level_programming/holbertonschool-low_level_programming/build/Debug/outDebug"
     }
   ]
 }
