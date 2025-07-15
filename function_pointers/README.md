@@ -1,0 +1,1 @@
+ca c'est le README.md des fonctions pointeurs y ade la joie :)
