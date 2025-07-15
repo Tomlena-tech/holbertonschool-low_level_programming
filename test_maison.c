@@ -1,17 +1,19 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-int main() 
+void Printhello(char *name)
+{
+printf("Hello %s\n", name);
+}
 
-{ int nombrtableau[5] = {0};
-    int i = 0;
-    for (i = 0; i < 5; i++)
-    {
-        printf("la valeur a l'indice 3 est de %d\n", nombrtableau[3]);
-  
-    return 0;
+
+ int Add(int a, int b)
+    {return a+b;
     }
-
- 
-
-}   
+  
+int main() 
+{
+void (*ptr)(char*);
+ptr = Printhello;
+ptr("Thomas");
+}
