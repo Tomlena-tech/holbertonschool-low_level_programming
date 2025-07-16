@@ -1,4 +1,4 @@
-#difndef __VARIADIC_FUNCTIONS_H__
+#ifndef __VARIADIC_FUNCTIONS_H__
 #define __VARIADIC_FUNCTIONS_H__
 #include <stdarg.h>
 /**
