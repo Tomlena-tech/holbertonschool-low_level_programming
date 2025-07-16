@@ -7,5 +7,6 @@
  *
  * Return: The sum of all parameters, or 0 if n is 0.
  */
-int sum_them_all(const unsigned int n, ...);    
+int sum_them_all(const unsigned int n, ...);  
+void print_numbers(const char *separator, const unsigned int n, ...);
 #endif /* __VARIADIC_FUNCTIONS_H__ */
