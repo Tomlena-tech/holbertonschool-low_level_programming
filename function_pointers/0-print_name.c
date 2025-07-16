@@ -3,15 +3,14 @@
 #include <stdio.h>
 /** 
  * print_name - Prints a name using a function pointer.
- * print_name_as_is - Prints a name as is.
  * @name: The name to be printed.
- *
- * This function takes a name and prints it directly to the standard output.
- * It does not perform any additional formatting or processing.
+ @f: A pointer to the function that takes a char as argument.
+ * description: This function calls the function pointed by f, passinfd name as argument.
+ * If name or f is NULL, the function does nothing.
  */
 void print_name(char *name, void (*f)(char *))
 {
-    if (name == NULL || f == NULL)
-        return;
-    f(name);
+if (name == NULL || f == NULL)
+return;
+f(name);
 }
