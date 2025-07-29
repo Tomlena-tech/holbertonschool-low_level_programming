@@ -21,6 +21,7 @@ size_t print_list(const list_t *h)
 		h = h->next;
 		count++;
 	}
-
+	if (count == 0)
+		printf("[0] (nil)\n");
 	return (count);
 }
