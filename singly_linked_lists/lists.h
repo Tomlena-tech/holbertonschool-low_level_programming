@@ -14,8 +14,8 @@
  */
 typedef struct listint_s
 {
-	char *str; /* String data */
-    unsigned int len; /* Length of the string */
+	char *str; 
+    unsigned int len; 
 	struct listint_s *next;
 } list_t;
 
@@ -28,4 +28,4 @@ list_t *add_node_end(list_t **head, const char *str);
 void free_list(list_t *head);
 
 
-#endif /* LISTS_H */
+#endif 
