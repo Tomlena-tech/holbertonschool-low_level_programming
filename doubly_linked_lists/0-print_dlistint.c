@@ -1,6 +1,7 @@
 
 #include <stdio.h>
 #include "lists.h"
+#include <stdlib.h>
 
 /**
  * print_dlistint - Prints all the elements of a dlistint_t list.
