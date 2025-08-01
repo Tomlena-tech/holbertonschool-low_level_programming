@@ -2,8 +2,26 @@
 #include <stdlib.h>
 #include <fcntl.h>
 #include <unistd.h>
-#include <string.h>
+#include <stdarg.h>
 #include <sys/stat.h>
+
+
+/**
+ * error_exit - Affiche un message d'erreur et quitte le programme
+ * @code: Code d'erreur à retourner
+ * @message: Message d'erreur à afficher (avec %s)
+ * @arg: Argument à insérer dans le message (nom de fichier ou fd)
+ */
+
+void error_exit(int exit_code, const char *format, ...)
+{
+	va_list args;
+
+	va_start(args, format);
+	vdprintf(2, format, args);
+	exit(exit_code);
+}
+
 
 /**
  * main - Copies the content of a file to another file
@@ -12,6 +30,8 @@
  *
  * Return: 0 on success, exits with codes 97-100 on error
  */
+
+
 int main(int argc, char *argv[])
 {
 	int fd_from, fd_to;
