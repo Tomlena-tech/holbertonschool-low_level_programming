@@ -6,8 +6,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/thomas/holbertonschool/holbertonschool-low_level_programming/holbertonschool-low_level_programming",
-      "program": "/Users/thomas/holbertonschool/holbertonschool-low_level_programming/holbertonschool-low_level_programming/build/Debug/outDebug"
+      "cwd": "/Users/thomas/holbertonschool/holbertonschool-low_level_programming/gxuyw-Introduction-to-Open-Source",
+      "program": "/Users/thomas/holbertonschool/holbertonschool-low_level_programming/gxuyw-Introduction-to-Open-Source/build/Debug/outDebug"
     }
   ]
 }
